@@ -6,6 +6,11 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { SetpasswordComponent } from './auth/setpassword/setpassword.component';
+import {EditComponent} from './workshop/profile/edit/edit.component';
+import {ViewComponent} from './workshop/profile/view/view.component';
+import {UsersListComponent} from './workshop/users/users-list/users-list.component'
+import {UsersProfileComponent} from './workshop/users/users-profile/users-profile.component';
+
 import { AuthModule} from './auth/auth.module'; 
 
 @NgModule({
@@ -13,7 +18,11 @@ import { AuthModule} from './auth/auth.module';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    SetpasswordComponent
+    SetpasswordComponent,
+    UsersProfileComponent,
+    UsersListComponent,
+    ViewComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
